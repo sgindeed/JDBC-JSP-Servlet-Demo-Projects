@@ -1,0 +1,6 @@
+CREATE TABLE BankAccount (
+    accountId INT PRIMARY KEY GENERATED ALWAYS AS IDENTITY (START WITH 1, INCREMENT BY 1),
+    accountHolderName VARCHAR(100),
+    balance DOUBLE
+);
+
