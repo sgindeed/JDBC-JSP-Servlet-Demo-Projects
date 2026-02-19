@@ -1,6 +1,0 @@
-CREATE TABLE Hospital (
-    hospitalId INT PRIMARY KEY GENERATED ALWAYS AS IDENTITY (START WITH 1, INCREMENT BY 1),
-    hospitalName VARCHAR(100),
-    balance DOUBLE
-);
-
